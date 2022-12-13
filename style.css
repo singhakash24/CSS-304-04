@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* -------------------------------------------------------------- */
+/* body{
+    border: 2px solid red;
+    height:100vh;
+    width: 100vw;
+} */
+/* -------------------------------------------------------------- */
+.maincontainer{
+    border:2px solid black;
+    width:96vw;
+    height: 100vh;
+    display: flex;
+    /* background-image: linear-gradient(black,red,black); */
+    /* background-image: linear-gradient(#3de5ee,rgb(104, 214, 199),rgb(116, 232, 232)); */
+    /* backdrop-filter: blur(2px); */
+
+}
+
+/* -------------------------------------------------------------- */
+
+.leftcontainer{
+    /* border:2px solid green; */
+    width:30%;
+    height: 100%;
+    display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#84dde2,white,rgb(151, 238, 238));
+    opacity: 0.8;
+    filter: blur();
+    border-radius: 41px;
+    
+}
+
+.profile{
+    /* border: 2px solid gray; */
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile img{
+    width: 45%;
+    height: 45%;
+}
+
+.profile h3{
+    font-size: larger;
+}
+
+
+.list{
+    /* border: 2px solid blue; */
+    height: 50%;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.list-div{
+    /* border: 2px solid green; */
+    height: 20%;
+    width: 100%;
+
+}
+.list-div h2{
+    color: rgb(51, 53, 53);
+    text-align: center;
+}
+.list-div img{
+    position: absolute;
+    height: 30px;
+    margin-left: 5rem;
+}
+
+
+.bottom{
+    /* border: 2px solid blue; */
+    height: 13%;
+    width: 90%;
+    display: flex;
+    /* justify-content: flex-end; */
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(59, 174, 180),rgb(0, 123, 255),rgb(19, 62, 74));
+    filter: blur();
+    
+}
+.bottom-text{
+    
+    height: 100%;
+    width: 40%;
+}
+.bottom p{
+    font-size: 2.5rem;
+    color: white;
+    /* text-indent: 100px; */
+    /* text-align: start; */
+}
+.bottom img{
+    position: absolute;
+    height: 60px;
+    margin-top: 20px;
+    margin-left:5px ;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+.rightcontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-image: linear-gradient(#3de5ee,rgb(109, 180, 170),rgb(125, 210, 210));
+    opacity: 0.5;
+    filter: blur();
+
+}
+
+.activegame{
+    /* border: 2px solid red; */
+    height: 20%;
+    width: 100%;
+    padding: 2rem;
+    margin-left:300px;
+}
+.user-averageBar{
+    /* border: 2px solid darkorange; */
+    height:1.5rem;
+    width: 15rem;
+    border-radius: 50px;
+    /* background-image: linear-gradient(rgb(59, 174, 180),rgb(0, 123, 255),rgb(19, 62, 74)); */
+    background-image: linear-gradient(#84dde2,white,rgb(151, 238, 238));
+}
+
+.assians{
+    /* border:2px solid blue; */
+    width: 70%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(#84dde2,white,rgb(151, 238, 238));
+    opacity: 1.5;
+}
+
+
+
+.assians img{
+    height: 80px;
+    border-radius: 10px;
+    
+}
+
+.child{
+    /* border: 2px solid red; */
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+
+.smalldiv span{
+    /* border: 2px solid green;  */
+    width: 30%;
+     height: 20px;
+     font-size: 13px;
+    
+}
+
+.game-averageBar{
+    /* border: 2px solid darkorange; */
+    height:1.5rem;
+    width: 13rem;
+    border-radius: 50px;
+    background-image: linear-gradient(rgb(59, 174, 180),rgb(0, 123, 255),rgb(19, 62, 74));
+    opacity: 2.4;
+}
+
+.assians p{
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 10%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: end;
+    color: rgb(51, 53, 53);
+    }
